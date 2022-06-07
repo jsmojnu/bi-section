@@ -20,7 +20,7 @@ function equation(x , x4, x3 , x2 , x1 , xMukto){
 }
 function bisection(a, b, x4, x3, x2, x1, xMukto) {
     if (equation(a, x4, x3, x2, x1, xMukto) * equation(b, x4, x3, x2, x1, xMukto) >= 0) {
-        return "Sorry, change the value of a and b";
+        alert("Sorry, change the value of a and b");
     }
     
    else{
